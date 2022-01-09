@@ -2,7 +2,8 @@ var readlineSync = require("readline-sync");
 
 let score = 0;
 let userName = readlineSync.question("What's your name?  ");
-console.log(`Welcome ${userName.toUpperCase()}!! to 'HOW WELL DO YOU KNOW MINKU'\n`);
+console.log(`Welcome ${userName.toUpperCase()}!! to 'HOW WELL DO YOU KNOW MINKU'`);
+console.log("Enter only yes/no\n")
 
 //function to check answer
 function checkAns(question, answer){
